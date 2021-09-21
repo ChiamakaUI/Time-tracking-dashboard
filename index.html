@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time tracking App</title>
+  </head>
+  <body>
+    <div class="grid_container">
+      <div class="first_gridContainer">
+        <div class="profile">
+          <img src="./images/image-jeremy.png" alt="profile picture" />
+          <div class="wrap">
+            <p>Report for</p>
+            <h3>Jeremy Robson</h3>
+          </div>
+        </div>
+        <div class="button_container">
+          <button id="daily">Daily</button>
+          <button id="weekly">Weekly</button>
+          <button id="monthly">Monthly</button>
+        </div>
+      </div>
+      <div class="second_gridContainer">
+        <div class="images">
+          <img src="./images/icon-work.svg" />
+        </div>
+        <div class="main">
+          <p class="ellipsis">
+            Work <span><img src="./images/icon-ellipsis.svg" /></span>
+          </p>
+          <div class="inner">
+            <h1><span id="work_current">32</span> hrs</h1>
+            <p class="lastWeek">
+              Last Week - <span id="work_previous">36</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="third_gridContainer">
+        <div class="images">
+          <img src="./images/icon-play.svg" />
+        </div>
+        <div class="main">
+          <p class="ellipsis">
+            Play<span><img src="./images/icon-ellipsis.svg" /></span>
+          </p>
+          <div class="inner">
+            <h1><span id="play_current">10</span> hrs</h1>
+            <p class="lastWeek">
+              Last Week - <span id="play_previous">8</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="fourth_gridContainer">
+        <div class="images">
+          <img src="./images/icon-study.svg" />
+        </div>
+        <div class="main">
+          <p class="ellipsis">
+            Study <span><img src="./images/icon-ellipsis.svg" /></span>
+          </p>
+          <div class="inner">
+            <h1><span id="study_current">4</span> hrs</h1>
+            <p class="lastWeek">
+              Last Week - <span id="study_previous">7</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fifth_gridContainer">
+        <div class="images">
+          <img src="./images/icon-exercise.svg" />
+        </div>
+        <div class="main">
+          <p class="ellipsis">
+            Exercise <span><img src="./images/icon-ellipsis.svg" /></span>
+          </p>
+          <div class="inner">
+            <h1><span id="exercise_current">4</span> hrs</h1>
+            <p class="lastWeek">
+              Last Week - <span id="exercise_previous">5</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sixth_gridContainer">
+        <div class="images">
+          <img src="./images/icon-social.svg" />
+        </div>
+        <div class="main">
+          <p class="ellipsis">
+            Social <span><img src="./images/icon-ellipsis.svg" /></span>
+          </p>
+          <div class="inner">
+            <h1><span id="social_current">5</span> hrs</h1>
+            <p class="lastWeek">
+              Last Week - <span id="social_previous">10</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="seventh_gridContainer">
+        <div class="images">
+          <img src="./images/icon-self-care.svg" />
+        </div>
+        <div class="main">
+          <p class="ellipsis">
+            Self Care<span><img src="./images/icon-ellipsis.svg" /></span>
+          </p>
+          <div class="inner">
+            <h1><span id="selfCare_current">2</span> hrs</h1>
+            <p class="lastWeek">
+              Last Week - <span id="selfCare_previous">2</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
